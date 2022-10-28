@@ -1,0 +1,55 @@
+:root {
+    // COLORS
+
+    //Accents
+    --PAA_Negative: #ff3d4d;
+    --PAA_Positive: #3ac270;
+    --PAA_Warning: #ffa64d;
+    --PAA_Brand_Primary: #ff5533;
+    --PAA_Brand_Secondary: #276460;
+
+    //Accents Tinted
+    --PAB_Negative_Tinted: #ff3d4d29;
+    --PAB_Negative_Tinted_Lighter: #ff3d4d0f;
+    --PAB_Positive_Tinted: #3ac27029;
+    --PAB_Positive_Tinted_Lighter: #3ac2700f;
+    --PAB_Alert_Tinted: #ffa64d29;
+    --PAB_Alert_Tinted_Lighter: #ffa64d17;
+    --PAB_Brand_Primary_Tint: #ff55330f;
+
+    //Text
+    --PA_Text_Primary: #252129;
+    --PA_Text_Secondary: #666666;
+    --PA_Text_Placeholder: #a2a2a3;
+
+    --PA_Text_Disabled: #dcdbdd;
+
+    //Overlay Text
+    --PA_Overlay_Text_Primary: #ffffff;
+    --PA_Overlay_Text_Secondary: rgba(255, 255, 255, 0.64);
+
+    //Icons
+    --PA_Icon_Primary: #252129;
+    --PA_Icon_Secondary: #9f9f9f;
+    --PA_Icon_Overlay_Primary: #ffffff;
+
+    //UI Elements
+    --PA_Border_Default: #ebebeb;
+    --PA_Surface_Tinted: #f7f7f7;
+    --PA_Surface_Tinted_Lighter: #fbfbfb;
+    --PA_Surface_Tinted_3: #ebebeb;
+
+    // BOX SHADOW
+    --Box_Shadow_Elevation_1_Bordered: 0px 0px 0px 1px #f4f5f6,
+        0px 8px 16px rgba(37, 33, 41, 0.04), 0px 0px 6px rgba(37, 33, 41, 0.04);
+
+    --Box_Shadow_Elevation_1: 0px 8px 16px rgba(37, 33, 41, 0.04),
+        0px 0px 6px rgba(37, 33, 41, 0.04);
+
+    --Box_Shadow_Elevation_2_Bordered: 0px 0px 0px 1px #f4f5f6,
+        0px 16px 32px rgba(37, 33, 41, 0.08),
+        0px 0px 12px rgba(37, 33, 41, 0.04);
+
+    --Box_Shadow_Elevation_2: 0px 16px 32px rgba(37, 33, 41, 0.08),
+        0px 0px 12px rgba(37, 33, 41, 0.04);
+}

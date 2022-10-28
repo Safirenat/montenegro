@@ -1,0 +1,166 @@
+@import "../../assets/Styles/mixins.scss";
+
+.main-gl{
+	overflowY: scroll;
+}
+.testr{
+	background-image: url(../../assets/Images/fon.jpg);
+
+}
+
+.icon-up{
+
+	display: flex;
+	align-items: center;
+    opacity: 0.5;
+	position: fixed;
+	// right: 10px;
+    // bottom: 60px;
+	right: 30px;
+    bottom: 60px;
+	padding: 15px 10px 10px;
+    background: #aaa;
+	-webkit-border-radius: 5px;
+    // display: none;
+    cursor: pointer;
+    z-index: 1001;
+
+	&:hover{
+		opacity: 0.3;
+
+	}
+	img{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.main__info {
+	display: grid;
+	grid-template-columns:
+		minmax(50px, 199px) minmax(50px, 313px) minmax(50px, 338px)
+		minmax(50px, 446px) minmax(50px, 238px);
+	margin-bottom: 30px;
+
+	@include respond(tablet) {
+		grid-template-columns: 1fr;
+	}
+}
+.main__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	cursor: pointer;
+
+	span {
+		color: black;
+	}
+
+	img {
+		width: 100%;
+		max-width: 402px;
+		max-height: 266px;
+		margin-bottom: 10px;
+	}
+}
+
+.main__item-wrapper {
+	position: relative;
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 30px;
+
+	@include respond(laptop) {
+		grid-template-columns: 1fr 1fr;
+	}
+	@include respond(tablet) {
+		grid-template-columns: 1fr;
+	}
+
+	.accessories-absolute {
+		position: absolute;
+		background: rgba(168, 168, 168, 0.562);
+		border-radius: 50%;
+		padding: 40px;
+		top: 48px;
+		left: 118px;
+		svg {
+			display: flex;
+			align-items: center;
+			width: 80px;
+			height: 80px;
+		}
+	}
+}
+
+// .header-container{
+// 	background-image: url(../../assets/Images/fon.jpg);
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	background-position: center bottom;
+
+// }
+
+.fon {
+	position: absolute;
+	top: 460px;
+	right: -170px;
+	svg {
+		width: 250px;
+		height: 250px;
+	}
+}
+
+.main__logo-wrapper {
+	display: none;
+
+	@include respond(tablet) {
+		display: block;
+		position: absolute;
+		top: -10px;
+		left: -10px;
+	}
+
+	svg {
+		@include respond(tablet) {
+			width: 85px;
+			height: 85px;
+		}
+	}
+}
+
+.testv{
+	height: 900px;
+	text-align: center;
+	padding-top: 100px;
+
+	background-color: rgba(118, 121, 135, 0.304);
+}
+
+// .mobaile__social {
+// 	display: none;
+
+// 	@include respond(tablet) {
+// 		svg {
+// 			width: 24px;
+// 			height: 24px;
+// 		}
+// 		position: fixed;
+// 		z-index: 1000;
+// 		display: flex;
+// 		flex-direction: column;
+// 		align-items: center;
+
+// 		top: 35px;
+// 		right: 20px;
+// 		a {
+// 			// &:first-child {
+// 			// 	margin-left: 10px;
+// 			// }
+// 			margin-bottom: 10px;
+// 		}
+// 	}
+// }
